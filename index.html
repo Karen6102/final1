@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Programa de Transporte</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+
+<body>
+    <h1>Programa de Transporte</h1>
+
+    <label>Oferta:</label>
+    <input id="oferta" value="7,9,18">
+
+    <label>Demanda:</label>
+    <input id="demanda" value="5,8,7,14">
+
+    <label>Matriz de costos:</label>
+    <textarea id="costos" rows="4">19,30,50,10
+70,30,40,60
+40,8,70,20</textarea>
+
+    <button onclick="calcular()">Ejecutar</button>
+
+    <div id="resultado" class="resultado"></div>
+
+    <script src="./js/transporte.js"></script>
+</body>
+
+</html>
